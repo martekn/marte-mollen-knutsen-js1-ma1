@@ -42,13 +42,13 @@ resultsContainer.innerHTML = "<p>New paragraph</p>";
 resultsContainer.style.backgroundColor = "yellow";
 
 // Question 7
-const logListItems = function (list) {
+const logName = function (list) {
   for (const listItem of list) {
     console.log(listItem.name);
   }
 };
 
-logListItems(cats);
+logName(cats);
 
 // Question 8
 const createCats = function (cats) {
